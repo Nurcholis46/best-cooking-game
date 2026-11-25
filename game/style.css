@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #241708;
+  font-family: 'Trebuchet MS', Verdana, sans-serif;
+  color: #ffe9b0;
+}
+.wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px;
+}
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+  image-rendering: auto;
+}
+.hint {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.85;
+  margin: 10px 0 0;
+}
